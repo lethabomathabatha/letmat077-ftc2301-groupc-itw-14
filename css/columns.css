@@ -7,6 +7,10 @@ ul {
     
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 2;
+    gap: 20px;
 }
 
 li {
@@ -15,5 +19,6 @@ li {
     background-color: rgb(245, 173, 41);
 
     /* add solution here.. */
-
+    width: 100%;
+    font-size: 31px;
 }
