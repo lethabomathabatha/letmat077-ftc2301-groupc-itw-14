@@ -3,6 +3,9 @@ nav ul {
     padding-left: 0;
 
     /* add solution here */
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
 }
 
 li {
